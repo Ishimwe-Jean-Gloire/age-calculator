@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(13, 86, 223);
+}
+
+body {
+    font-family: Fira code;
+    background-color: #2782e3;
+    opacity: 95%;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 550px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #eee;
+    /* border-radius: 25px; */
+    box-shadow: 4px 6px 5px rgba(2, 19, 31, 0.2);
+}
+
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    margin-top: 40px;
+}
+
+.base h4 {
+    font-size: 15px;
+    text-align: center;
+    font-family: Fira Code;
+    font-weight: normal;
+    box-shadow: 0px 2px #bababa;
+    background: white;
+    font-size: 1.5rem;
+    padding: 10px 12px;
+}
+
+.title {
+    font-size: 10px;
+    text-align: left;
+    font-family: Fira Code;
+    color: #1073d0;
+}
+
+input[type=text] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 1px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    color: #1073d0;
+    font-size: 17px;
+    -webkit-border-radius: ;
+    -moz-border-radius: ;
+    -ms-border-radius: ;
+    -o-border-radius: ;
+}
+
+input[type=text]:focus {
+    background-color: #ffffff;
+    border: 1px solid rgb(13, 86, 223);
+    outline: none;
+}
+
+input[type=button] {
+    font-family: fira code;
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #0761b6;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+input[type=button]:hover {
+    background-color: #0b5192;
+}
+
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+input[type=text]::placeholder {
+    color: rgb(28, 69, 146);
+}
